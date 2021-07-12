@@ -1,6 +1,6 @@
 {
   "name": "react-native-smartprice",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Prescryptive SmartPRICE component, with linked example expo project",
   "main": "index.tsx",
   "author": "Prescryptive Health, Inc.",

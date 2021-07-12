@@ -120,15 +120,6 @@ export const CreateAccountForm: FunctionComponent<ISmartPriceModalProps> = ({
     return setIsRequirementsChecked(isChecked);
   };
 
-  const onSmartPriceTermsAndConditions = () => {
-    const url = 'https://prescryptive.com/savings-plan-terms/';
-    if (Platform.OS == 'web') {
-      window.open(url, '_blank');
-    } else {
-      Linking.openURL(url);
-    }
-  };
-
   const onPrescryptiveTermsAndConditions = () => {
     const url = 'https://prescryptive.com/terms-of-use/';
     if (Platform.OS == 'web') {
@@ -140,12 +131,7 @@ export const CreateAccountForm: FunctionComponent<ISmartPriceModalProps> = ({
 
   const requirementsLabel = (
     <Text style={createAccountFormStyles.requirementsLabelTextStyle}>
-      I have read and agree to:
-      <TouchableOpacity onPress={onSmartPriceTermsAndConditions}>
-        <Text style={createAccountFormStyles.linkTextStyle}>
-          SmartPrice Terms & Conditions
-        </Text>
-      </TouchableOpacity>
+      I have read and agree to:{'\u00A0'}
       <TouchableOpacity onPress={onPrescryptiveTermsAndConditions}>
         <Text style={createAccountFormStyles.linkTextStyle}>
           Prescryptive Terms & Conditions

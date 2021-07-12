@@ -6977,19 +6977,14 @@ react-native-safe-area-context@3.1.9:
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.1.9.tgz#48864ea976b0fa57142a2cc523e1fd3314e7247e"
   integrity sha512-wmcGbdyE/vBSL5IjDPReoJUEqxkZsywZw5gPwsVUV1NBpw5eTIdnL6Y0uNKHE25Z661moxPHQz6kwAkYQyorxA==
 
-"react-native-smartprice@file:react-native-smartprice-1.0.0.tgz":
-  version "1.0.0"
-  resolved "file:react-native-smartprice-1.0.0.tgz#d40c522a1322bd9c85010e43d2cc928e74c4a91c"
+react-native-smartprice@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/react-native-smartprice/-/react-native-smartprice-1.0.13.tgz#7840ebaf0e5fd31099d48581c332472051d9b489"
+  integrity sha512-d4QFTthFVbk8ZQKeo7nPKhGmo5gRUZ9S6ojE9LjY5eCUhNluEZ5e2ZrTLEsCg+38QKXN0gzNN3fYo7kUgOmtbw==
   dependencies:
     "@expo/match-media" "^0.0.0-beta.2"
     axios "^0.21.1"
-    expo "~40.0.0"
-    expo-status-bar "~1.0.3"
-    react "16.13.1"
-    react-dom "16.13.1"
-    react-native "https://github.com/expo/react-native/archive/sdk-40.0.0.tar.gz"
     react-native-svg "12.1.0"
-    react-native-web "~0.13.12"
     react-responsive "^8.2.0"
 
 react-native-svg@12.1.0:

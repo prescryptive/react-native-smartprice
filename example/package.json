@@ -19,7 +19,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.0.tar.gz",
-    "react-native-smartprice": "^1.0.13",
+    "react-native-smartprice": "^1.0.14",
     "react-native-svg": "12.1.0",
     "react-native-web": "~0.13.12",
     "react-responsive": "^8.2.0"
